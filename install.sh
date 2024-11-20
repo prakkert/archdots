@@ -18,4 +18,4 @@ rm -rf ~/.config/hypr/hypridle.conf && ln -s ./hypr/hypridle.conf ~/.config/hypr
 rm -rf ~/.config/yazi/yazi.toml && ln -s ./yazi/yazi.toml ~/.config/yazi/yazi.toml
 # waybar dotfiles
 rm -rf ~/.config/waybar/config && ln -s ./waybar/config ~/.config/waybar/config
-rm -rf ~/.config/waybar/style.css && ln -s ./waybar/style.css
+rm -rf ~/.config/waybar/style.css && ln -s ./waybar/style.css ~/.config/waybar/style.css
