@@ -21,3 +21,4 @@ rm -rf ~/.config/waybar/config && ln -s ~/projects/archdots/waybar/config ~/.con
 rm -rf ~/.config/waybar/style.css && ln -s ~/projects/archdots/waybar/style.css ~/.config/waybar/style.css
 # bashrc dotfile
 rm -rf ~/.bashrc && ln -s ~/projects.archdots/bash/.bashrc ~/.bashrc
+rm -rf ~/.config/kitty/current-theme.conf && ln -s ~/projects/archdots/kitty/current-theme.conf ~/.config/kitty/current-theme.conf
