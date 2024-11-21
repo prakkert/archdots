@@ -20,7 +20,7 @@ function y() {
 }
 
 case ${TERM} in
-  Eterm*|alacritty*|aterm*|foot*|gnome*|konsole*|kterm*|putty*|rxvt*|tmux*|xterm*)
+  Eterm*|alacritty*|aterm*|foot*|gnome*|kitty*|konsole*|kterm*|putty*|rxvt*|tmux*|xterm*)
     PROMPT_COMMAND+=('printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"')
 
     ;;

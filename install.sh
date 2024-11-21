@@ -20,5 +20,5 @@ rm -rf ~/.config/yazi/yazi.toml && ln -s ~/projects/archdots/yazi/yazi.toml ~/.c
 rm -rf ~/.config/waybar/config && ln -s ~/projects/archdots/waybar/config ~/.config/waybar/config
 rm -rf ~/.config/waybar/style.css && ln -s ~/projects/archdots/waybar/style.css ~/.config/waybar/style.css
 # bashrc dotfile
-rm -rf ~/.bashrc && ln -s ~/projects.archdots/bash/.bashrc ~/.bashrc
+rm -rf ~/.bashrc && ln -s ~/projects/archdots/bash/.bashrc ~/.bashrc
 rm -rf ~/.config/kitty/current-theme.conf && ln -s ~/projects/archdots/kitty/current-theme.conf ~/.config/kitty/current-theme.conf
