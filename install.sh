@@ -6,6 +6,7 @@ echo 'Creating symlinks for dotfiles'
 mkdir ~/.config/nvim
 mkdir ~/.config/yazi
 mkdir ~/.config/waybar
+mkdir ~/.config/mako
 # neovim dotfiles
 rm -rf ~/.config/nvim/init.lua && ln -s ~/projects/archdots/nvim/init.lua ~/.config/nvim/init.lua
 rm -rf ~/.config/nvim/lazy-lock.json && ln -s ~/projects/archdots/nvim/lazy-lock.lua ~/.config/nvim/lazy-lock.lua
@@ -22,3 +23,5 @@ rm -rf ~/.config/waybar/style.css && ln -s ~/projects/archdots/waybar/style.css 
 # bashrc dotfile
 rm -rf ~/.bashrc && ln -s ~/projects/archdots/bash/.bashrc ~/.bashrc
 rm -rf ~/.config/kitty/current-theme.conf && ln -s ~/projects/archdots/kitty/current-theme.conf ~/.config/kitty/current-theme.conf
+# mako dotfiles
+rm -rf ~/.config/mako/config && ln -s ~/projects/archdots/mako/config ~/.config/mako/config
