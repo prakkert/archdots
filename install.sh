@@ -25,3 +25,5 @@ rm -rf ~/.bashrc && ln -s ~/projects/archdots/bash/.bashrc ~/.bashrc
 rm -rf ~/.config/kitty/current-theme.conf && ln -s ~/projects/archdots/kitty/current-theme.conf ~/.config/kitty/current-theme.conf
 # mako dotfiles
 rm -rf ~/.config/mako/config && ln -s ~/projects/archdots/mako/config ~/.config/mako/config
+# rofi dotfiles
+rm -rf ~/.config/rofi/config.rasi && ln -s ~/projects/archdots/rofi/config.rasi ~/.config/rofi/config.rasi
