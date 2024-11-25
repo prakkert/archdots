@@ -7,12 +7,14 @@ mkdir ~/.config/nvim
 mkdir ~/.config/yazi
 mkdir ~/.config/waybar
 mkdir ~/.config/mako
+mkdir ~/.config/hypr/conf
 # neovim dotfiles
 rm -rf ~/.config/nvim/init.lua && ln -s ~/projects/archdots/nvim/init.lua ~/.config/nvim/init.lua
 rm -rf ~/.config/nvim/lazy-lock.json && ln -s ~/projects/archdots/nvim/lazy-lock.lua ~/.config/nvim/lazy-lock.lua
 rm -rf ~/.config/nvim/plugins.lua && ln -s ~/projects/archdots/nvim/plugins.lua ~/.config/nvim/plugins.lua
 # hyprland and hyprtools dotfiles
 rm -rf ~/.config/hypr/hyprland.conf && ln -s ~/projects/archdots/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
+rm -rf ~/.config/hypr/conf/monitor.conf && ln -s ~/projects/archdots/hypr/conf/monitor.conf ~/.config/hypr/config/monitor.conf
 rm -rf ~/.config/hypr/hyprpaper.conf && ln -s ~/projects/archdots/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
 rm -rf ~/.config/hypr/hypridle.conf && ln -s ~/projects/archdots/hypr/hypridle.conf ~/.config/hypr/hypridle.conf
 # yazi dotfiles
