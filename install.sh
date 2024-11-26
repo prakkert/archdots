@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'Starting install script'
 echo 'Install required applications'
-yay -Syu fzf ripgrep neovim yazi pavucontrol audio-recorder clipboard e2fsprogs f2fs-tools hyprcursor hyprpaper hypridle hyprutils waybar mako power-profiles-daemon rofi sudo ttf-font-awesome ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-hack ttf-liberation vim yt-dlp
+yay -Syu fzf ripgrep neovim yazi pavucontrol audio-recorder clipboard e2fsprogs f2fs-tools hyprcursor hyprpaper hypridle hyprutils waybar mako power-profiles-daemon rofi-wayland sudo ttf-font-awesome ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-hack ttf-liberation vim yt-dlp
 echo 'Creating symlinks for dotfiles'
 mkdir ~/.config/nvim
 mkdir ~/.config/yazi
