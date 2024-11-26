@@ -34,7 +34,8 @@ local plugins = {
       "nvim-tree/nvim-web-devicons", 
       "MunifTanjim/nui.nvim",
     },
-  }
+  },
+  {"ThePrimeagen/vim-be-good"}
 }
 local opts = {}
 
