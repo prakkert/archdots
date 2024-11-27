@@ -4,6 +4,7 @@ echo -e 'Starting install script\n\n'
 # yay -Syu fzf ripgrep neovim yazi pavucontrol audio-recorder clipboard e2fsprogs f2fs-tools hyprcursor hyprpaper hypridle hyprutils waybar mako power-profiles-daemon rofi-wayland sudo ttf-font-awesome ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-hack ttf-liberation vim yt-dlp
 echo -e 'Deleting config folders and .bashrc\n\n'
 rm -rf ~/.config/hypr/
+rm -rf ~/.config/kitty/
 rm -rf ~/.config/mako/
 rm -rf ~/.config/nvim/
 rm -rf ~/.config/rofi/
@@ -13,6 +14,7 @@ rm -rf ~/.bashrc
 echo -e 'Creating directories for config files\n\n'
 mkdir ~/.config/hypr/
 mkdir ~/.config/hypr/conf/
+mkdir ~/.config/kitty/
 mkdir ~/.config/mako/
 mkdir ~/.config/nvim/
 mkdir ~/.config/nvim/lua/
