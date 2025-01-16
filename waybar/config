@@ -1,41 +1,41 @@
 {
-    "layer": "top", // Waybar at top layer
+  "layer": "top", // Waybar at top layer
     "position": "top", // Waybar at the top of your screen
     "height": 29, // Waybar height
-    // "width": 1366, // Waybar width
-    // Choose the order of the modules
+                  // "width": 1366, // Waybar width
+                  // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["pulseaudio", "network", "battery", "tray", "clock"],
     "hyprland/workspaces": {
-        "format": "{icon}",
-        "format-icons": {
-        		"1": "",
-		        "2": ".",
-		        "3": "",
-		        "4": "",
-		        "5": "",
-		        "active": "",
-		        "default": ""
-        },
-        "persistent-workspaces": {
-            "*": 5 
-        },
+      "format": "{icon}",
+      "format-icons": {
+        "1": "",
+        "2": ".",
+        "3": "",
+        "4": "",
+        "5": "",
+        "active": "",
+        "default": ""
+      },
+      "persistent-workspaces": {
+        "*": 5 
+      },
     },
     "hyprland/window": {
-        "format": "{}",
-        "rewrite": {
-            "(.*) — Mozilla Firefox": " - $1",
-            "(.*) - kitty": "> $1"
-        },
+      "format": "{}",
+      "rewrite": {
+        "(.*) — Mozilla Firefox": " - $1",
+        "(.*) - kitty": "> $1"
+      },
     },
     "tray": {
-        "icon-size": 13,
-        "spacing": 7
+      "icon-size": 13,
+      "spacing": 7
     },
     "clock": {
-        "format": "{:L%A %d-%m-%Y %H:%M}",
-        "timezone": "Europe/Amsterdam"
+      "format": "{:L%A %d-%m-%Y %H:%M}",
+      "timezone": "Europe/Amsterdam"
     },
     //"cpu": {
     //    "format": "{usage}% "
@@ -44,37 +44,37 @@
     //    "format": "{}% "
     //},
     "battery": {
-        "bat": "BAT0",
-        "states": {
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+      "bat": "BAT0",
+      "states": {
+        // "good": 95,
+        "warning": 30,
+        "critical": 15
+      },
+      "format": "{icon}",
+      // "format-good": "", // An empty format will hide the module
+      // "format-full": "",
+      "format-icons": ["", "", "", "", ""]
     },
     "network": {
-        // "interface": "wlp2s0", // (Optional) To force the use of this interface
-        "format-wifi": "",
-        "format-ethernet": "",
-        "format-disconnected": "Disconnected ⚠"
+      // "interface": "wlp2s0", // (Optional) To force the use of this interface
+      "format-wifi": "",
+      "format-ethernet": "",
+      "format-disconnected": "Disconnected ⚠"
     },
     "pulseaudio": {
-        //"scroll-step": 1,
-        "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-muted": "",
-        "format-icons": {
-            "headphones": "",
-            "handsfree": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", ""]
-        },
-        "on-click": "pavucontrol"
+      //"scroll-step": 1,
+      "format": "{volume}% {icon}",
+      "format-bluetooth": "{volume}% {icon}",
+      "format-muted": "",
+      "format-icons": {
+        "headphones": "",
+        "handsfree": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", ""]
+      },
+      "on-click": "pavucontrol"
     },
 }
