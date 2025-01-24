@@ -8,15 +8,8 @@
     "modules-center": ["hyprland/window"],
     "modules-right": ["pulseaudio", "network", "battery", "tray", "clock"],
     "hyprland/workspaces": {
-      "format": "{icon}",
-      "format-icons": {
-        "1": "",
-        "2": ".",
-        "3": "",
-        "4": "",
-        "5": "",
-        "active": "",
-        "default": ""
+      "icon-size": 32,
+      "spacing": 16
       },
       "persistent-workspaces": {
         "*": 5 
