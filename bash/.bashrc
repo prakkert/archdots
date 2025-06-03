@@ -34,3 +34,4 @@ if [[ -r /usr/share/bash-completion/bash_completion ]]; then
 fi
 
 alias v='nvim'
+alias heroic='flatpak run com.heroicgameslauncher.hgl'
