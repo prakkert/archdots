@@ -37,6 +37,7 @@ ln -s ~/archdots/kitty/current-theme.conf ~/.config/kitty/current-theme.conf
 # mako dotfiles
 ln -s ~/archdots/mako/config ~/.config/mako/config
 # neovim dotfiles
+# TODO: make this prettier and more future proof, like "for plugin file in archdots plugins dir, create softlink in .config plugins dir
 ln -s ~/archdots/nvim/init.lua ~/.config/nvim/init.lua
 ln -s ~/archdots/nvim/lazy-lock.lua ~/.config/nvim/lazy-lock.lua
 ln -s ~/archdots/nvim/lua/plugins.lua ~/.config/nvim/lua/plugins.lua
